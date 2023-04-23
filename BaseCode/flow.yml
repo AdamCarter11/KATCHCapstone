@@ -1,0 +1,15 @@
+jtype: Flow
+with:
+  protocol: 'http'
+  port: 1234
+executors:
+  - name: image-object-identification
+    uses: ImageObjectIdentification
+    volumes: '.cache/huggingface:.cache'
+    uses_with: {
+      'pretrained_model_name_or_path':'{enter trained model here. ie: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}'
+    }
+    uses_metas: {
+      'description': 'Create a DocArray Executor that creates A.I. Image identification and OCR for files containing images. OCR is a secondary requirement and if found to be too challenging then let us know so we can decide to go for it or skip it.'
+    }
+    py_modules: 'exec/image-object-identification/image_object_identification.py'
