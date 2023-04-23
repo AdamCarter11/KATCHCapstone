@@ -1,6 +1,6 @@
 from jina import Executor, requests, Document, DocumentArray
 
-
+print("test")
 class ImageObjectIdentification(Executor):
     '''
     This is an example Executor. Here you would add all the functionality needed
