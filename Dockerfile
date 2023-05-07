@@ -18,7 +18,9 @@ COPY ./ ./
 #RUN apt install python3
 #RUN python3 get-pip.py
 #RUN pip install -U Jina
-RUN /app/flow.py
+CMD [ "pip", "install", "docarray"]
+CMD [ "python", "/app/flow.py"]
+#RUN /app/flow.py
 
 EXPOSE 1234
 
@@ -27,4 +29,4 @@ CMD [ "serve", "-s", "build" ]
 ####
 
 # Auto generated
-ENTRYPOINT ["top", "-b"]
+#ENTRYPOINT ["top", "-b"]
