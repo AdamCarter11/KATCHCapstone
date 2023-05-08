@@ -21,17 +21,12 @@ def interact_with_gpt2(prompt, video_metadata):
         context = prompt
 
     inputs = tokenizer(context, return_tensors="pt", padding=True, truncation=True, max_length=200)
-    outputs = model.generate(**inputs, max_length=200, num_return_sequences=1)
-    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    outputs = model.generate(**inputs, max_length=200, num_return_sequences=1,
+                              temperature=1.5, top_k=50, top_p=0.95)
 
+    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
     response = generated_text.replace(context, "").strip()
     return response
-
-
-
-
-
-
 
 # Load JSON metadata
 json_string = '''

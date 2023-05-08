@@ -12,7 +12,10 @@ def interact_with_gpt2(prompt):
     inputs = tokenizer(prompt, return_tensors="pt", padding=True, truncation=True, max_length=150)
     outputs = model.generate(**inputs, max_length=150, num_return_sequences=1)
     generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+    return generated_text
+
 if __name__ == "__main__":
-        user_input = input("Enter a prompt for GPT-2: ")
-        response = interact_with_gpt2(user_input)
-        print("GPT-2 Response:", response)
+    user_input = input("Enter a prompt for GPT-2: ")
+    response = interact_with_gpt2(user_input)
+    print("GPT-2 Response:", response)
