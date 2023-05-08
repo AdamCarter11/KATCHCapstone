@@ -1,14 +1,12 @@
 import json
-from transformers import GPT2Tokenizer, GPT2LMHeadModel
+from transformers import RagTokenizer, RagTokenForGeneration, RagConfig
 
-def interact_with_gpt2(prompt, video_metadata, stored_transcript):
-    model_name = "gpt2"
+def interact_with_rag(prompt, video_metadata, stored_transcript):
+    model_name = "facebook/rag-token-nq"
 
-    tokenizer = GPT2Tokenizer.from_pretrained(model_name)
-    model = GPT2LMHeadModel.from_pretrained(model_name)
-
-    # Set the pad token to the EOS token
-    tokenizer.pad_token = tokenizer.eos_token
+    tokenizer = RagTokenizer.from_pretrained(model_name)
+    config = RagConfig.from_pretrained(model_name)
+    model = RagTokenForGeneration.from_pretrained(model_name, config=config)
 
     video_key = None
     words = prompt.split()
@@ -49,6 +47,6 @@ video_metadata = json.loads(json_string)
 if __name__ == "__main__":
     stored_transcript = ""
     while True:
-        user_input = input("Enter a prompt for GPT-2: ")
-        response = interact_with_gpt2(user_input, video_metadata, stored_transcript)
-        print("GPT-2 Response:", response)
+        user_input = input("Enter a prompt for RAG: ")
+        response = interact_with_rag(user_input, video_metadata, stored_transcript)
+        print("RAG Response:", response)
