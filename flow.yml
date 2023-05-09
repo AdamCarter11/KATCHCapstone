@@ -13,3 +13,8 @@ executors:
       'description': 'Create a DocArray Executor that creates A.I. Image identification and OCR for files containing images. OCR is a secondary requirement and if found to be too challenging then let us know so we can decide to go for it or skip it.'
     }
     py_modules: 'exec/image-object-identification/image_object_identification.py'
+    pods:
+      gpt:
+        uses: exec/gpt_executor/gpt_executor.yml
+        needs: gateway
+        read_only: true
