@@ -1,14 +1,36 @@
 import json
-from transformers import GPT2Tokenizer, GPT2LMHeadModel
+import os
+import sys
+from transformers import GPT2Tokenizer, GPT2LMHeadModel, BertTokenizer, BertModel
+import torch
+from transformers import logging
+from sklearn.metrics.pairwise import cosine_similarity
+
+logging.set_verbosity_error()
 
 def interact_with_gpt2(prompt, video_metadata, stored_transcript):
-    model_name = "gpt2"
+    model_name = "gpt2-medium"
 
     tokenizer = GPT2Tokenizer.from_pretrained(model_name)
     model = GPT2LMHeadModel.from_pretrained(model_name)
 
     # Set the pad token to the EOS token
     tokenizer.pad_token = tokenizer.eos_token
+
+    # Load BERT tokenizer and model for embeddings
+    bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+    bert_model = BertModel.from_pretrained('bert-base-uncased')
+
+    import nltk
+    from nltk.corpus import stopwords
+    # Comment out the following lines
+    # nltk.download("stopwords")
+    # nltk.download("punkt")
+
+    def get_embedding(text):
+            inputs = bert_tokenizer(text, return_tensors="pt", padding=True, truncation=True)
+            outputs = bert_model(**inputs)
+            return outputs.last_hidden_state[:, 0, :].detach().numpy()
 
     video_key = None
     words = prompt.split()
@@ -23,11 +45,29 @@ def interact_with_gpt2(prompt, video_metadata, stored_transcript):
     else:
         transcript = stored_transcript
 
-    context = f"Transcript: \"{transcript}\"\n{prompt}"
+    def get_keywords(text):
+        words = nltk.word_tokenize(text)
+        words = [word.lower() for word in words if word.isalnum()]
+        stop_words = set(stopwords.words("english"))
+        keywords = [word for word in words if word not in stop_words]
+        return set(keywords)
+
+    user_keywords = get_keywords(prompt)
+    transcript_keywords = get_keywords(transcript)
+
+    # Compute the similarity between user input and transcript
+    user_input_embedding = get_embedding(prompt)
+    transcript_embedding = get_embedding(transcript)
+    similarity_score = cosine_similarity(user_input_embedding, transcript_embedding)
+
+    if len(user_keywords.intersection(transcript_keywords)) > 0 or similarity_score > 0.5:
+        context = f"Transcript: \"{transcript}\"\n{prompt}"
+    else:
+        context = prompt
 
     inputs = tokenizer(context, return_tensors="pt", padding=True, truncation=True, max_length=200)
-    outputs = model.generate(**inputs, max_length=100, num_return_sequences=1,
-                             temperature=5.0, top_k=10, top_p=0.95)
+    outputs = model.generate(**inputs, max_length=150, num_return_sequences=1,
+                             temperature=1.5, top_k=10, top_p=0.95, no_repeat_ngram_size=4)
     generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
     response = generated_text.replace(context, "").strip()

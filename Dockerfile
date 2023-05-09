@@ -1,6 +1,6 @@
 #FROM ubuntu:latest
 FROM jinaai/jina:latest-perf
-LABEL authors="Adam"
+LABEL authors="Jay"
 
 ####
 # The /app directory should act as the main application directory
