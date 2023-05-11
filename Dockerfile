@@ -11,8 +11,8 @@ WORKDIR /app
 
 # Copy local directories to the current local directory of our docker image (/app)
 COPY ./ ./
-
-
+#cd /app
+#ls -al
 # Install node packages, install serve, build the app, and remove dependencies at the end
 #RUN apt update -y
 #RUN apt install python3
