@@ -1,7 +1,7 @@
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 def interact_with_gpt2(prompt):
-    model_name = "gpt2-medium"  # You can use "gpt2-medium", "gpt2-large", or "gpt2-xl" for larger models
+    model_name = "gpt2"  # You can use "gpt2-medium", "gpt2-large", or "gpt2-xl" for larger models
 
     tokenizer = GPT2Tokenizer.from_pretrained(model_name)
     model = GPT2LMHeadModel.from_pretrained(model_name)
@@ -17,6 +17,8 @@ def interact_with_gpt2(prompt):
     return generated_text
 
 if __name__ == "__main__":
-    user_input = input("Enter a prompt for GPT-2: ")
-    response = interact_with_gpt2(user_input)
-    print("GPT-2 Response:", response)
+    stored_transcript = ""
+    while True:
+        user_input = input("Enter a prompt for GPT-2: ")
+        response = interact_with_gpt2(user_input)
+        print("GPT-2 Response:", response)

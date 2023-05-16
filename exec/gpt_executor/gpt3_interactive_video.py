@@ -11,7 +11,7 @@ import nltk
 from nltk.corpus import stopwords
 
 # Set up OpenAI API key
-openai.api_key = "your_api_key_here"
+openai.api_key = "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"
 
 # Load BERT tokenizer and model for embeddings
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -39,46 +39,34 @@ def get_keywords(text):
 
 import openai
 
-def interact_with_gpt3_5(prompt, video_metadata, stored_transcript):
+def find_video_tags(prompt, video_metadata):
+    words = prompt.lower().split()
+    for video_key, video_info in video_metadata.items():
+        for tag in video_info["video_tags"]:
+            if tag.lower() in words:
+                return ', '.join(video_info["video_tags"])
+    return ""
+def find_video_tags_and_transcript(prompt, video_metadata):
+    words = prompt.lower().split()
+    for video_key, video_info in video_metadata.items():
+        for tag in video_info["video_tags"]:
+            if tag.lower() in words:
+                return ', '.join(video_info["video_tags"]), video_info["transcript"]
+    return "", ""
+
+def interact_with_gpt3_5(prompt, video_metadata):
     model_engine = "text-davinci-003"
 
-    video_key = None
-    words = prompt.split()
-    for word in words:
-        if word.isdigit():
-            video_key = "video_" + word
-            break
+    # Find the video tags and transcript that match the prompt
+    video_tags, transcript = find_video_tags_and_transcript(prompt, video_metadata)
 
-    if video_key and video_key in video_metadata:
-        transcript = video_metadata[video_key]["transcript"]
-        stored_transcript = transcript
-        video_tags = ', '.join(video_metadata[video_key]["video_tags"])
-    else:
-        transcript = stored_transcript
-        video_tags = ""
+    # Create a context from the tags and the transcript
+    context = f"In a video tagged with {video_tags}, the speaker says: \"{transcript}\". "
 
-    # Split transcript into chunks of 2048 tokens
-    transcript_chunks = [transcript[i:i + 2048] for i in range(0, len(transcript), 2048)]
+    # Append the user's prompt to the context
+    context += prompt
 
-    # Send transcript chunks one by one
-    for chunk in transcript_chunks:
-        context = f"In a video about {video_tags}, the speaker talks about \"{chunk}\", please do not generate a " \
-                  f"response about it unless I specifically ask about the contents."
-
-        openai.Completion.create(
-            engine=model_engine,
-            prompt=context,
-            max_tokens=150,
-            n=1,
-            stop=None,
-            temperature=0.7,
-            top_p=1,
-            frequency_penalty=0,
-            presence_penalty=0
-        )
-
-    # Send the user's prompt with the original context statement
-
+    # Generate a response from GPT-3.5
     response = openai.Completion.create(
         engine=model_engine,
         prompt=context,
@@ -94,12 +82,14 @@ def interact_with_gpt3_5(prompt, video_metadata, stored_transcript):
     return response.choices[0].text.strip()
 
 
+
+
 # Load JSON metadata
 json_string = '''
 {
   "video_1": {
     "transcript": "In this video, we discuss the process of photosynthesis. Jeremy is a Cat",
-    "video_tags": ["Jeremy", "biology", "plants", "science"],
+    "video_tags": ["Haru","wear", "black", "shoes"],
     "timestamps": [0, 15, 30, 45]
   }
 }
@@ -107,14 +97,11 @@ json_string = '''
 
 video_metadata = json.loads(json_string)
 
-
-
-
 if __name__ == "__main__":
     stored_transcript = ""
     while True:
         user_input = input("Enter a prompt for KACH (type 'exit' to quit): ")
         if user_input.lower() == "exit":
             break
-        response = interact_with_gpt35(user_input, video_metadata, stored_transcript)
+        response = interact_with_gpt3_5(user_input, video_metadata)
         print("GPT-3.5 Response:", response)

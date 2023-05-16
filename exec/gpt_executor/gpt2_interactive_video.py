@@ -33,7 +33,7 @@ def get_keywords(text):
 
 
 def interact_with_gpt2(prompt, video_metadata, stored_transcript):
-    model_name = "gpt2-large"
+    model_name = "gpt2-medium"
     tokenizer = GPT2Tokenizer.from_pretrained(model_name)
     model = GPT2LMHeadModel.from_pretrained(model_name)
     tokenizer.pad_token = tokenizer.eos_token
@@ -61,7 +61,8 @@ def interact_with_gpt2(prompt, video_metadata, stored_transcript):
     similarity_score = cosine_similarity(user_input_embedding, transcript_embedding)
 
     if len(user_keywords.intersection(transcript_keywords)) > 0 or similarity_score > 0.4:
-        context = f"In a video about {video_tags}, the speaker talks about \"{transcript}\". {prompt}"
+        context = f"In a video about {video_tags}, the speaker talks about \"{transcript}\", please tell me " \
+                  f"about the video.{prompt}"
     else:
         context = prompt
 
@@ -100,7 +101,7 @@ json_string = '''
   }
 }
 '''
-
+#gpt2 is extremely case sensitive
 video_metadata = json.loads(json_string)
 
 if __name__ == "__main__":
