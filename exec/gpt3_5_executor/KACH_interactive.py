@@ -1,4 +1,6 @@
 import json
+import os
+import sys
 import numpy as np
 import openai
 from transformers import BertTokenizer, BertModel
@@ -8,10 +10,11 @@ import nltk
 from nltk.corpus import stopwords
 import logging
 from transformers import logging as hf_logging
+import openai
 hf_logging.set_verbosity_error()
 
 # Set up OpenAI API key
-openai.api_key = 
+openai.api_key =
 
 # Load BERT tokenizer and model for embeddings
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -23,6 +26,7 @@ def get_embedding(text):
     embeddings = outputs.last_hidden_state[:, :, :].detach().numpy()
     sentence_embedding = np.mean(embeddings, axis=1)
     return sentence_embedding[0]
+
 
 def get_keywords(text):
     vectorizer = TfidfVectorizer(stop_words='english', max_features=10)
@@ -38,42 +42,44 @@ def get_keywords(text):
     feature_names = vectorizer.get_feature_names_out()
     return set(feature_names)
 
-from scipy.spatial.distance import cosine
 
 def find_video_tags_and_transcript(prompt, video_metadata):
     words = get_keywords(prompt)
     prompt_embedding = get_embedding(prompt)
-    best_match = ("", "", "", "", "", -1)  # (tag, transcript_text, tag_timestamp, start_time, end_time, similarity)
-    prompt_embedding_2d = np.reshape(prompt_embedding, (1, -1))
+    best_match = ("", "", "", "", "", "", -1)  # (video title, tag, transcript_text, tag_timestamp, start_time, end_time, similarity)
 
     for video in video_metadata["videos"]:
         for segment in video["transcript_portions"]:
-            start_time = int(segment["start_time"])
-            end_time = int(segment["end_time"])
             transcript_embedding = get_embedding(segment["text"])
-            transcript_embedding_2d = np.reshape(transcript_embedding, (1, -1))
-            similarity = cosine_similarity(prompt_embedding_2d, transcript_embedding_2d)[0][0]
+            similarity = cosine_similarity([prompt_embedding], [transcript_embedding])[0][0]
 
-            if similarity > best_match[5]:
+            if similarity > best_match[6]:
                 for tag in segment["tags"]:
                     if tag["word"].lower() in words:
-                        best_match = (
-                        tag["word"], segment["text"], tag["timestamp"], segment["start_time"], segment["end_time"],
-                        similarity)
+                        best_match = (video["title"], tag["word"], segment["text"], tag["timestamp"], segment["start_time"], segment["end_time"], similarity)
 
-    return best_match[0], best_match[1], best_match[2], best_match[3], best_match[4]
+                # If no tags match, still update the best match based on similarity
+                if best_match[6] == -1:
+                    best_match = (video["title"], "", segment["text"], "", segment["start_time"], segment["end_time"], similarity)
+
+    return best_match[0], best_match[1], best_match[2], best_match[3], best_match[4], best_match[5]
+
+
 
 def interact_with_gpt3_5(prompt, video_metadata):
     model_engine = "text-davinci-003"
 
     # Find the video tags and transcript segment that match the prompt
-    video_tags, transcript_segment, _, _, _ = find_video_tags_and_transcript(prompt, video_metadata)
+    video_title, video_tags, transcript_segment, _, _, _ = find_video_tags_and_transcript(prompt, video_metadata)
 
-    # Create a context from the tags and transcript
-    context = f"In a video tagged with {video_tags}, a segment of the transcript reads: \"{transcript_segment}\". "
+    # Create a context from the video title, tags, and transcript
+    context = f"In a video titled '{video_title}', a segment of the transcript reads: \"{transcript_segment}\". "
+
+    if video_tags:
+        context += f"This segment is tagged with '{video_tags}'. "
 
     # Append the user's prompt to the context
-    full_prompt = context + "What can you teach me about it?"
+    full_prompt = context + prompt
 
     # Generate a response from GPT-3.5
     response = openai.Completion.create(
@@ -90,6 +96,7 @@ def interact_with_gpt3_5(prompt, video_metadata):
 
     return response.choices[0].text.strip()
 
+
 # Define the full path to your JSON file
 file_path = 'C:\\Users\\jpiye\\OneDrive\\Documents\\GitHub\\KATCHCapstone\\exec\\gpt3_5_executor\\response.json'
 
@@ -98,7 +105,6 @@ with open(file_path) as f:
     video_metadata = json.load(f)
 
 if __name__ == "__main__":
-    stored_tags = ""
     while True:
         user_input = input("Enter a prompt for KACH (type 'exit' to quit): ")
         if user_input.lower() == "exit":
