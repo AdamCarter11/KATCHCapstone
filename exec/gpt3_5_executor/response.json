@@ -1,0 +1,43 @@
+{
+  "video": {
+    "title": "100 Days Ago I Built a Desert Ecosystem, This Happened",
+    "duration": "528",
+    "youtube_id": "wir7jmefyec",
+    "channel_title": "Test Dude",
+    "thumbnail_url": "https://img.youtube.com/vi/wir7jmefyec/mqdefault.jpg",
+    "transcript_portions": [
+      {
+        "start_time": "0",
+        "end_time": "30",
+        "text": "Within this tank lives a miniature world. There are predators and prey, wind and rain.",
+        "tags": [
+          {
+            "word": "tank",
+            "timestamp": "5"
+          },
+          {
+            "word": "world",
+            "timestamp": "15"
+          }
+        ],
+        "speaker": "spk_0"
+      },
+      {
+        "start_time": "30",
+        "end_time": "60",
+        "text": "This desert is a dangerous place but despite all odds, some animals have evolved to survive. It transformed from an empty wasteland to a thriving ecosystem to understand the mysteries within.",
+        "tags": [
+          {
+            "word": "desert",
+            "timestamp": "35"
+          },
+          {
+            "word": "animals",
+            "timestamp": "50"
+          }
+        ],
+        "speaker": "spk_0"
+      }
+    ]
+  }
+}

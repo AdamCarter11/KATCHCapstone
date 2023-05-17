@@ -1,0 +1,20 @@
+{
+  "video_1": {
+    "video_tags": ["Jeremy", "Biology", "Cat","beaker","35","student","answer","math"],
+    "transcript_segments": [{
+      "timestamp": "00:01:00",
+      "transcript": "Jeremy, a cat, is teaching us about biology. A student asked him what 7x7 is and after the bell rang he answered the math question"
+    },
+    {
+      "timestamp": "00:02:30",
+      "transcript": "He explains the process of photosynthesis. He was stirring a beaker and it was 35 degrees and the student asked him to the answer a question about what a flower is"
+    }],
+    "tag_timestamps": {
+      "Jeremy": ["00:01:00"],
+      "Biology": ["00:02:30"],
+      "Cat": ["00:01:00"],
+      "beaker": ["00:03:00"],
+      "35": ["00:03:10"]
+    }
+  }
+}

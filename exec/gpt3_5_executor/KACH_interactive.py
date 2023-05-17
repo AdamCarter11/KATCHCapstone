@@ -1,14 +1,17 @@
 # pip install openai
 import json
+import os
+import sys
+import numpy as np
 import openai
 from transformers import BertTokenizer, BertModel
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 from nltk.corpus import stopwords
-
+import logging
 from transformers import logging as hf_logging
-
+import openai
 hf_logging.set_verbosity_error()
 
 # Set up OpenAI API key
@@ -37,36 +40,43 @@ def get_keywords(text):
     feature_names = vectorizer.get_feature_names_out()
     return set(feature_names)
 
-import openai
+
+
 
 def find_video_tags_and_transcript(prompt, video_metadata):
     words = prompt.lower().split()
     for video_key, video_info in video_metadata.items():
-        # Check video tags
-        for tag in video_info["video_tags"]:
-            if tag.lower() in words:
-                timestamps = video_info["tag_timestamps"].get(tag, [])
-                for segment in video_info["transcript_segments"]:
-                    if segment["timestamp"] in timestamps:
-                        return ', '.join(video_info["video_tags"]), segment["transcript"]
-    return "", ""
+        # Check video transcript portions
+        for segment in video_info["transcript_portions"]:
+            start_time = int(segment["start_time"])
+            end_time = int(segment["end_time"])
+            for tag in segment["tags"]:
+                if tag["word"].lower() in words and start_time <= int(tag["timestamp"]) <= end_time:
+                    return tag["word"], segment["text"], tag["timestamp"], segment["start_time"], segment["end_time"]
+    return "", "", "", "", ""
+
+
+
+
+
+
 
 def interact_with_gpt3_5(prompt, video_metadata):
     model_engine = "text-davinci-003"
 
     # Find the video tags and transcript segment that match the prompt
-    video_tags, transcript_segment = find_video_tags_and_transcript(prompt, video_metadata)
+    video_tags, transcript_segment, _, _, _ = find_video_tags_and_transcript(prompt, video_metadata)
 
-    # Create a context from the tags
+    # Create a context from the tags and transcript
     context = f"In a video tagged with {video_tags}, a segment of the transcript reads: \"{transcript_segment}\". "
 
     # Append the user's prompt to the context
-    context += prompt
+    full_prompt = context + prompt
 
     # Generate a response from GPT-3.5
     response = openai.Completion.create(
         engine=model_engine,
-        prompt=context,
+        prompt=full_prompt,
         max_tokens=150,
         n=1,
         stop=None,
@@ -78,8 +88,10 @@ def interact_with_gpt3_5(prompt, video_metadata):
 
     return response.choices[0].text.strip()
 
+
+
 # Define the full path to your JSON file
-file_path = 'C:\\Users\\jpiye\\OneDrive\\Documents\\GitHub\\KATCHCapstone\\exec\\gpt_executor\\video_metadata.json'
+file_path = 'C:\\Users\\jpiye\\OneDrive\\Documents\\GitHub\\KATCHCapstone\\exec\\gpt3_5_executor\\response.json'
 
 # Now you can open the file with this path
 with open(file_path) as f:
