@@ -10,8 +10,14 @@ def interact_with_gpt2(prompt):
     tokenizer.pad_token = tokenizer.eos_token
 
     inputs = tokenizer(prompt, return_tensors="pt", padding=True, truncation=True, max_length=150)
-    outputs = model.generate(**inputs, max_length=150, num_return_sequences=1, temperature=1.5, top_k=10, top_p=0.95,
-                             no_repeat_ngram_size=4)
+    outputs = model.generate(**inputs,
+                             max_length=150,
+                             num_return_sequences=1,
+                             temperature=100,
+                             top_k=10,
+                             top_p=0.95,
+                             no_repeat_ngram_size=3)
+
     generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
     return generated_text
