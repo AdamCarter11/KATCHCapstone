@@ -1,43 +1,102 @@
 {
-  "video": {
-    "title": "100 Days Ago I Built a Desert Ecosystem, This Happened",
-    "duration": "528",
-    "youtube_id": "wir7jmefyec",
-    "channel_title": "Test Dude",
-    "thumbnail_url": "https://img.youtube.com/vi/wir7jmefyec/mqdefault.jpg",
-    "transcript_portions": [
-      {
-        "start_time": "0",
-        "end_time": "30",
-        "text": "Within this tank lives a miniature world. There are predators and prey, wind and rain.",
-        "tags": [
-          {
-            "word": "tank",
-            "timestamp": "5"
-          },
-          {
-            "word": "world",
-            "timestamp": "15"
-          }
-        ],
-        "speaker": "spk_0"
-      },
-      {
-        "start_time": "30",
-        "end_time": "60",
-        "text": "This desert is a dangerous place but despite all odds, some animals have evolved to survive. It transformed from an empty wasteland to a thriving ecosystem to understand the mysteries within.",
-        "tags": [
-          {
-            "word": "desert",
-            "timestamp": "35"
-          },
-          {
-            "word": "animals",
-            "timestamp": "50"
-          }
-        ],
-        "speaker": "spk_0"
-      }
-    ]
-  }
+  "videos": [
+    {
+      "title": "Lecture on 'The Quantum Sorcerer'",
+      "duration": "1200",
+      "youtube_id": "abcd1234",
+      "channel_title": "Fantasy Book Club",
+      "thumbnail_url": "https://img.youtube.com/vi/abcd1234/mqdefault.jpg",
+      "transcript_portions": [
+        {
+          "start_time": "0",
+          "end_time": "60",
+          "text": "Today we're diving into the fantastical world of 'The Quantum Sorcerer', a book where magic meets science in unexpected ways.",
+          "tags": [
+            {
+              "word": "The Quantum Sorcerer",
+              "timestamp": "10"
+            },
+            {
+              "word": "magic",
+              "timestamp": "30"
+            },
+            {
+              "word": "science",
+              "timestamp": "40"
+            }
+          ],
+          "speaker": "spk_0"
+        },
+        {
+          "start_time": "60",
+          "end_time": "120",
+          "text": "Our protagonist, Ada, is a physicist in the daytime, but at night she delves into arcane arts, blending these two worlds.",
+          "tags": [
+            {
+              "word": "Ada",
+              "timestamp": "65"
+            },
+            {
+              "word": "physicist",
+              "timestamp": "75"
+            },
+            {
+              "word": "arcane arts",
+              "timestamp": "90"
+            }
+          ],
+          "speaker": "spk_0"
+        }
+      ]
+    },
+    {
+      "title": "Exploring 'Chronicles of the Last Continent'",
+      "duration": "1500",
+      "youtube_id": "efgh5678",
+      "channel_title": "Sci-Fi Book Club",
+      "thumbnail_url": "https://img.youtube.com/vi/efgh5678/mqdefault.jpg",
+      "transcript_portions": [
+        {
+          "start_time": "0",
+          "end_time": "60",
+          "text": "'Chronicles of the Last Continent' takes us to a future Earth, where climate change has forced humanity to adapt in extraordinary ways.",
+          "tags": [
+            {
+              "word": "Chronicles of the Last Continent",
+              "timestamp": "5"
+            },
+            {
+              "word": "future Earth",
+              "timestamp": "20"
+            },
+            {
+              "word": "climate change",
+              "timestamp": "35"
+            }
+          ],
+          "speaker": "spk_0"
+        },
+        {
+          "start_time": "60",
+          "end_time": "120",
+          "text": "We follow the journey of Luna, an explorer navigating this new world, facing challenges and uncovering secrets of the past.",
+          "tags": [
+            {
+              "word": "Luna",
+              "timestamp": "65"
+            },
+            {
+              "word": "explorer",
+              "timestamp": "70"
+            },
+            {
+              "word": "new world",
+              "timestamp": "80"
+            }
+          ],
+          "speaker": "spk_0"
+        }
+      ]
+    }
+  ]
 }
