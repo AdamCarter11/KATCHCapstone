@@ -15,7 +15,7 @@ import openai
 hf_logging.set_verbosity_error()
 
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Load BERT tokenizer and model for embeddings
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -24,7 +24,10 @@ bert_model = BertModel.from_pretrained('bert-base-uncased')
 def get_embedding(text):
     inputs = bert_tokenizer(text, return_tensors="pt", padding=True, truncation=True)
     outputs = bert_model(**inputs)
-    return outputs.last_hidden_state[:, 0, :].detach().numpy()
+    embeddings = outputs.last_hidden_state[:, :, :].detach().numpy()
+    sentence_embedding = np.mean(embeddings, axis=1)
+    return sentence_embedding[0]
+
 
 def get_keywords(text):
     vectorizer = TfidfVectorizer(stop_words='english', max_features=10)
@@ -43,17 +46,30 @@ def get_keywords(text):
 
 
 
+from scipy.spatial.distance import cosine
+
 def find_video_tags_and_transcript(prompt, video_metadata):
-    words = prompt.lower().split()
+    prompt_embedding = get_embedding(prompt)
+
+    best_match = None
+    best_similarity = 0.0
+
     for video_key, video_info in video_metadata.items():
         # Check video transcript portions
         for segment in video_info["transcript_portions"]:
-            start_time = int(segment["start_time"])
-            end_time = int(segment["end_time"])
-            for tag in segment["tags"]:
-                if tag["word"].lower() in words and start_time <= int(tag["timestamp"]) <= end_time:
-                    return tag["word"], segment["text"], tag["timestamp"], segment["start_time"], segment["end_time"]
+            transcript_embedding = get_embedding(segment["text"])
+            similarity = 1 - cosine(prompt_embedding, transcript_embedding)
+
+            if similarity > best_similarity:
+                best_similarity = similarity
+                best_match = segment
+
+    if best_match:
+        return best_match["tags"][0]["word"], best_match["text"], best_match["tags"][0]["timestamp"], best_match["start_time"], best_match["end_time"]
+
     return "", "", "", "", ""
+
+
 
 
 
