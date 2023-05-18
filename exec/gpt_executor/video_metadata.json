@@ -1,20 +1,20 @@
 {
   "video_1": {
-    "video_tags": ["Jeremy", "Biology", "Cat","beaker","35","student","answer","math"],
+    "video_tags": ["cooking", "bitter melon","College","35","student","overcook","sally"],
     "transcript_segments": [{
       "timestamp": "00:01:00",
-      "transcript": "Jeremy, a cat, is teaching us about biology. A student asked him what 7x7 is and after the bell rang he answered the math question"
+      "transcript": "sally was making bitter melon. in order to eat it without it being too bitter you must cook it"
     },
     {
       "timestamp": "00:02:30",
-      "transcript": "He explains the process of photosynthesis. He was stirring a beaker and it was 35 degrees and the student asked him to the answer a question about what a flower is"
+      "transcript": "sally was cooking bitter melon once and it got overcooked and became yellowish and mushy and very bitter, she was not happy but learned her lesson"
     }],
     "tag_timestamps": {
-      "Jeremy": ["00:01:00"],
-      "Biology": ["00:02:30"],
-      "Cat": ["00:01:00"],
-      "beaker": ["00:03:00"],
-      "35": ["00:03:10"]
+      "sally": ["00:01:00"],
+      "Bitter melon": ["00:02:30"],
+      "yellowish": ["00:01:00"],
+      "mushy": ["00:03:00"],
+      "bitter": ["00:03:10"]
     }
   }
 }

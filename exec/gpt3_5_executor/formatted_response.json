@@ -1,0 +1,2890 @@
+{
+    "videos": [
+        {
+            "title": "100 Days Ago I Built a Desert Ecosystem, This Happened",
+            "publish_date": "2023-02-18",
+            "duration": "528",
+            "youtube_id": "wir7jmefyec",
+            "channel_title": "Test Dude",
+            "thumbnail_url": "https://img.youtube.com/vi/wir7jmefyec/mqdefault.jpg",
+            "transcript_portions": [
+                {
+                    "text": "Within this tank lives a miniature world.",
+                    "start_time": "0.009",
+                    "end_time": 3.0390000000000006,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Tank",
+                            "wordIndex": 3,
+                            "timestamp": 0.86
+                        },
+                        {
+                            "word": "Tank Lives",
+                            "wordIndex": 4,
+                            "timestamp": 0.86
+                        },
+                        {
+                            "word": "World",
+                            "wordIndex": 7,
+                            "timestamp": 2.299
+                        }
+                    ]
+                },
+                {
+                    "text": "There are predators and prey, wind and rain.",
+                    "start_time": "3.109",
+                    "end_time": 6.7780000000000005,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Predators",
+                            "wordIndex": 10,
+                            "timestamp": 3.48
+                        },
+                        {
+                            "word": "Predator",
+                            "wordIndex": 10,
+                            "timestamp": 3.48
+                        },
+                        {
+                            "word": "Prey Wind",
+                            "wordIndex": 13,
+                            "timestamp": 4.469
+                        },
+                        {
+                            "word": "Rain",
+                            "wordIndex": 15,
+                            "timestamp": 6.61
+                        }
+                    ]
+                },
+                {
+                    "text": "This desert is a dangerous place but despite all odds, some animals have evolved to survive.",
+                    "start_time": "7.239",
+                    "end_time": 14.308,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Desert",
+                            "wordIndex": 17,
+                            "timestamp": 7.82
+                        },
+                        {
+                            "word": "Place",
+                            "wordIndex": 21,
+                            "timestamp": 9.239
+                        },
+                        {
+                            "word": "Odds",
+                            "wordIndex": 25,
+                            "timestamp": 10.909
+                        },
+                        {
+                            "word": "Animals",
+                            "wordIndex": 27,
+                            "timestamp": 11.84
+                        },
+                        {
+                            "word": "Animal",
+                            "wordIndex": 27,
+                            "timestamp": 11.84
+                        }
+                    ]
+                },
+                {
+                    "text": "It transformed from an empty wasteland to a thriving ecosystem to understand the mysteries within.",
+                    "start_time": "14.529",
+                    "end_time": 22.198999999999998,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Wasteland",
+                            "wordIndex": 37,
+                            "timestamp": 16.53
+                        },
+                        {
+                            "word": "Ecosystem",
+                            "wordIndex": 41,
+                            "timestamp": 18.629
+                        },
+                        {
+                            "word": "Mysteries",
+                            "wordIndex": 45,
+                            "timestamp": 21.149
+                        }
+                    ]
+                },
+                {
+                    "text": "First, we must go back to day one.",
+                    "start_time": "22.389",
+                    "end_time": 26.194,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "First",
+                            "wordIndex": 47,
+                            "timestamp": 22.389
+                        },
+                        {
+                            "word": "Day",
+                            "wordIndex": 53,
+                            "timestamp": 24.879
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 53,
+                            "timestamp": 24.879
+                        }
+                    ]
+                },
+                {
+                    "text": "It all started when I got the tank, some materials and a whole lot of cacti.",
+                    "start_time": "27.149",
+                    "end_time": 31.708999999999996,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Tank",
+                            "wordIndex": 62,
+                            "timestamp": 28.87
+                        },
+                        {
+                            "word": "Materials",
+                            "wordIndex": 64,
+                            "timestamp": 29.719
+                        },
+                        {
+                            "word": "Lot",
+                            "wordIndex": 68,
+                            "timestamp": 31.17
+                        },
+                        {
+                            "word": "Cacti",
+                            "wordIndex": 70,
+                            "timestamp": 31.53
+                        }
+                    ]
+                },
+                {
+                    "text": "I proceeded to mix up some dirt and then build up the substrate.",
+                    "start_time": "31.87",
+                    "end_time": 35.65000000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Mix",
+                            "wordIndex": 74,
+                            "timestamp": 32.97
+                        },
+                        {
+                            "word": "Dirt",
+                            "wordIndex": 77,
+                            "timestamp": 33.52
+                        },
+                        {
+                            "word": "Substrate",
+                            "wordIndex": 83,
+                            "timestamp": 35.069
+                        }
+                    ]
+                },
+                {
+                    "text": "After placing in some rock, I began to plant the cacti, their spines are extremely sharp and it was a huge pain to plant anything I added in some final touches and the tank was complete.",
+                    "start_time": "35.779",
+                    "end_time": 46.179,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Rock",
+                            "wordIndex": 88,
+                            "timestamp": 36.889
+                        },
+                        {
+                            "word": "Plant",
+                            "wordIndex": 92,
+                            "timestamp": 38.24
+                        },
+                        {
+                            "word": "Cacti",
+                            "wordIndex": 94,
+                            "timestamp": 38.709
+                        },
+                        {
+                            "word": "Spines",
+                            "wordIndex": 96,
+                            "timestamp": 40.169
+                        },
+                        {
+                            "word": "Pain",
+                            "wordIndex": 105,
+                            "timestamp": 42.75
+                        },
+                        {
+                            "word": "Plant",
+                            "wordIndex": 107,
+                            "timestamp": 43.229
+                        },
+                        {
+                            "word": "Plant Anything",
+                            "wordIndex": 108,
+                            "timestamp": 43.229
+                        },
+                        {
+                            "word": "Anything",
+                            "wordIndex": 108,
+                            "timestamp": 43.59
+                        },
+                        {
+                            "word": "Touches",
+                            "wordIndex": 114,
+                            "timestamp": 45.43
+                        },
+                        {
+                            "word": "Tank",
+                            "wordIndex": 117,
+                            "timestamp": 46.06
+                        }
+                    ]
+                },
+                {
+                    "text": "This will serve as the foundation for a thriving ecosystem.",
+                    "start_time": "49.93",
+                    "end_time": 53.86500000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Foundation",
+                            "wordIndex": 125,
+                            "timestamp": 51.099
+                        },
+                        {
+                            "word": "Ecosystem",
+                            "wordIndex": 129,
+                            "timestamp": 53
+                        }
+                    ]
+                },
+                {
+                    "text": "On day three, I introduced the first animals.",
+                    "start_time": "55.24",
+                    "end_time": 58.903,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Day",
+                            "wordIndex": 131,
+                            "timestamp": 55.59
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 131,
+                            "timestamp": 55.59
+                        },
+                        {
+                            "word": "First",
+                            "wordIndex": 136,
+                            "timestamp": 57.639
+                        },
+                        {
+                            "word": "Animals",
+                            "wordIndex": 137,
+                            "timestamp": 58.159
+                        },
+                        {
+                            "word": "Animal",
+                            "wordIndex": 137,
+                            "timestamp": 58.159
+                        }
+                    ]
+                },
+                {
+                    "text": "These are called ipods.",
+                    "start_time": "58.979",
+                    "end_time": 61.001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Ipods",
+                            "wordIndex": 141,
+                            "timestamp": 60.619
+                        }
+                    ]
+                },
+                {
+                    "text": "As you can see, I have two varieties here.",
+                    "start_time": "61.27",
+                    "end_time": 63.93300000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Varieties",
+                            "wordIndex": 149,
+                            "timestamp": 63.029
+                        }
+                    ]
+                },
+                {
+                    "text": "Clowns and zebras.",
+                    "start_time": "64.019",
+                    "end_time": 65.90800000000002,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Clowns",
+                            "wordIndex": 151,
+                            "timestamp": 64.019
+                        },
+                        {
+                            "word": "Clown",
+                            "wordIndex": 151,
+                            "timestamp": 64.019
+                        },
+                        {
+                            "word": "Zebras",
+                            "wordIndex": 153,
+                            "timestamp": 65.08
+                        }
+                    ]
+                },
+                {
+                    "text": "After I placed them in, they began to search for shelter alongside the iso pods.",
+                    "start_time": "65.94",
+                    "end_time": 71.12499999999996,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Search",
+                            "wordIndex": 162,
+                            "timestamp": 68.22
+                        },
+                        {
+                            "word": "Shelter",
+                            "wordIndex": 164,
+                            "timestamp": 68.79
+                        }
+                    ]
+                },
+                {
+                    "text": "I introduce spring tails and buffalo beetles.",
+                    "start_time": "72.75",
+                    "end_time": 75.773,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Spring Tails",
+                            "wordIndex": 172,
+                            "timestamp": 73.589
+                        },
+                        {
+                            "word": "Buffalo Beetles",
+                            "wordIndex": 175,
+                            "timestamp": 74.669
+                        },
+                        {
+                            "word": "Beetle",
+                            "wordIndex": 175,
+                            "timestamp": 75.169
+                        },
+                        {
+                            "word": "Beetles",
+                            "wordIndex": 175,
+                            "timestamp": 75.169
+                        }
+                    ]
+                },
+                {
+                    "text": "These two DeVos will eat pretty much anything they can find.",
+                    "start_time": "75.839",
+                    "end_time": 79.087,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "DeVos",
+                            "wordIndex": 178,
+                            "timestamp": 76.62
+                        },
+                        {
+                            "word": "Anything",
+                            "wordIndex": 183,
+                            "timestamp": 78.54
+                        }
+                    ]
+                },
+                {
+                    "text": "All of these tiny bugs will eventually be food for a future predator By day 50, the ISO population began to boom in the shaded areas of the tank.",
+                    "start_time": "81.51",
+                    "end_time": 92.00500000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Bugs",
+                            "wordIndex": 191,
+                            "timestamp": 82.8
+                        },
+                        {
+                            "word": "Bug",
+                            "wordIndex": 191,
+                            "timestamp": 82.8
+                        },
+                        {
+                            "word": "Food",
+                            "wordIndex": 195,
+                            "timestamp": 84.33
+                        },
+                        {
+                            "word": "Future Predator",
+                            "wordIndex": 199,
+                            "timestamp": 85.099
+                        },
+                        {
+                            "word": "Predators",
+                            "wordIndex": 199,
+                            "timestamp": 85.72
+                        },
+                        {
+                            "word": "Predator",
+                            "wordIndex": 199,
+                            "timestamp": 85.72
+                        },
+                        {
+                            "word": "Day",
+                            "wordIndex": 201,
+                            "timestamp": 87.959
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 201,
+                            "timestamp": 87.959
+                        },
+                        {
+                            "word": "ISO Population",
+                            "wordIndex": 205,
+                            "timestamp": 89.37
+                        },
+                        {
+                            "word": "Boom",
+                            "wordIndex": 208,
+                            "timestamp": 91.25
+                        }
+                    ]
+                },
+                {
+                    "text": "They would form small little herds.",
+                    "start_time": "93.72",
+                    "end_time": 95.80000000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Herds",
+                            "wordIndex": 221,
+                            "timestamp": 95.19
+                        }
+                    ]
+                },
+                {
+                    "text": "The juveniles looked almost identical to their adult counterpart.",
+                    "start_time": "95.86",
+                    "end_time": 99.69900000000003,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Juveniles",
+                            "wordIndex": 223,
+                            "timestamp": 96.019
+                        },
+                        {
+                            "word": "Adult Counterpart",
+                            "wordIndex": 230,
+                            "timestamp": 98.5
+                        }
+                    ]
+                },
+                {
+                    "text": "Here you can even see one shedding its skin while the zebras were thriving.",
+                    "start_time": "99.79",
+                    "end_time": 104.752,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Skin",
+                            "wordIndex": 239,
+                            "timestamp": 102.239
+                        }
+                    ]
+                },
+                {
+                    "text": "The clown seemed to have disappeared entirely.",
+                    "start_time": "107.41",
+                    "end_time": 110.187,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Clowns",
+                            "wordIndex": 246,
+                            "timestamp": 107.58
+                        },
+                        {
+                            "word": "Clown",
+                            "wordIndex": 246,
+                            "timestamp": 107.58
+                        }
+                    ]
+                },
+                {
+                    "text": "On the other hand, the Buffalo Beatles were taking over.",
+                    "start_time": "110.599",
+                    "end_time": 114.94099999999996,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Hand",
+                            "wordIndex": 255,
+                            "timestamp": 111.419
+                        },
+                        {
+                            "word": "Buffalo Beatles",
+                            "wordIndex": 258,
+                            "timestamp": 112.15
+                        }
+                    ]
+                },
+                {
+                    "text": "I placed a dead cockroach into the tank to show just how many there were soon there was nothing left but a hollow skeleton.",
+                    "start_time": "115.04",
+                    "end_time": 122.41800000000005,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Cockroach",
+                            "wordIndex": 266,
+                            "timestamp": 116.029
+                        },
+                        {
+                            "word": "Tank",
+                            "wordIndex": 269,
+                            "timestamp": 116.879
+                        },
+                        {
+                            "word": "Show",
+                            "wordIndex": 271,
+                            "timestamp": 117.5
+                        },
+                        {
+                            "word": "Many",
+                            "wordIndex": 274,
+                            "timestamp": 118.389
+                        }
+                    ]
+                },
+                {
+                    "text": "They were running rampant and I needed a predator.",
+                    "start_time": "126.419",
+                    "end_time": 129.2,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Predators",
+                            "wordIndex": 294,
+                            "timestamp": 128.429
+                        },
+                        {
+                            "word": "Predator",
+                            "wordIndex": 294,
+                            "timestamp": 128.429
+                        }
+                    ]
+                },
+                {
+                    "text": "I needed something deadly.",
+                    "start_time": "129.339",
+                    "end_time": 130.97,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Something",
+                            "wordIndex": 297,
+                            "timestamp": 129.94
+                        }
+                    ]
+                },
+                {
+                    "text": "Something fast.",
+                    "start_time": "131.009",
+                    "end_time": 132.29100000000003,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Something",
+                            "wordIndex": 299,
+                            "timestamp": 131.009
+                        }
+                    ]
+                },
+                {
+                    "text": "Something almost as terrifying as my mother in law.",
+                    "start_time": "132.309",
+                    "end_time": 135.81000000000003,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Something",
+                            "wordIndex": 301,
+                            "timestamp": 132.309
+                        },
+                        {
+                            "word": "Mother",
+                            "wordIndex": 307,
+                            "timestamp": 135.039
+                        },
+                        {
+                            "word": "Law",
+                            "wordIndex": 309,
+                            "timestamp": 135.529
+                        }
+                    ]
+                },
+                {
+                    "text": "Let me introduce you to the dune scorpion.",
+                    "start_time": "135.899",
+                    "end_time": 139.16799999999998,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Dune Scorpion",
+                            "wordIndex": 317,
+                            "timestamp": 138.02
+                        },
+                        {
+                            "word": "Scorpion",
+                            "wordIndex": 317,
+                            "timestamp": 138.449
+                        }
+                    ]
+                },
+                {
+                    "text": "He is a vicious predator and will make short work of a beetle or is aod?",
+                    "start_time": "139.309",
+                    "end_time": 143.24100000000004,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Predators",
+                            "wordIndex": 322,
+                            "timestamp": 140.339
+                        },
+                        {
+                            "word": "Predator",
+                            "wordIndex": 322,
+                            "timestamp": 140.339
+                        },
+                        {
+                            "word": "Work",
+                            "wordIndex": 327,
+                            "timestamp": 141.809
+                        },
+                        {
+                            "word": "Beetle",
+                            "wordIndex": 330,
+                            "timestamp": 142.419
+                        },
+                        {
+                            "word": "Beetles",
+                            "wordIndex": 330,
+                            "timestamp": 142.419
+                        }
+                    ]
+                },
+                {
+                    "text": "Do you see that tiny white drop on a stinger?",
+                    "start_time": "143.699",
+                    "end_time": 146.51700000000002,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Drop",
+                            "wordIndex": 340,
+                            "timestamp": 145.509
+                        },
+                        {
+                            "word": "Stinger",
+                            "wordIndex": 343,
+                            "timestamp": 146.07
+                        }
+                    ]
+                },
+                {
+                    "text": "Well, that is a potent venom and I have to be extremely careful.",
+                    "start_time": "146.679",
+                    "end_time": 150.738,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Venom",
+                            "wordIndex": 349,
+                            "timestamp": 148.145
+                        }
+                    ]
+                },
+                {
+                    "text": "I picked him up and prepared to place him into the tank after a gentle love tap.",
+                    "start_time": "151.134",
+                    "end_time": 155.49599999999995,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Place",
+                            "wordIndex": 364,
+                            "timestamp": 152.574
+                        },
+                        {
+                            "word": "Tank",
+                            "wordIndex": 368,
+                            "timestamp": 153.324
+                        },
+                        {
+                            "word": "Love",
+                            "wordIndex": 372,
+                            "timestamp": 154.934
+                        }
+                    ]
+                },
+                {
+                    "text": "He took his very first step into the new world.",
+                    "start_time": "155.664",
+                    "end_time": 158.54099999999994,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "First",
+                            "wordIndex": 378,
+                            "timestamp": 156.554
+                        },
+                        {
+                            "word": "Step",
+                            "wordIndex": 379,
+                            "timestamp": 156.854
+                        },
+                        {
+                            "word": "World",
+                            "wordIndex": 383,
+                            "timestamp": 157.845
+                        },
+                        {
+                            "word": "World Scorpions",
+                            "wordIndex": 384,
+                            "timestamp": 157.845
+                        }
+                    ]
+                },
+                {
+                    "text": "Scorpions are almost completely blind.",
+                    "start_time": "158.645",
+                    "end_time": 161.36200000000002,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Scorpion",
+                            "wordIndex": 384,
+                            "timestamp": 158.645
+                        }
+                    ]
+                },
+                {
+                    "text": "So they don't use their eyes to get around within just a few minutes.",
+                    "start_time": "161.414",
+                    "end_time": 165.511,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Use",
+                            "wordIndex": 392,
+                            "timestamp": 162.175
+                        },
+                        {
+                            "word": "Eyes",
+                            "wordIndex": 394,
+                            "timestamp": 162.585
+                        },
+                        {
+                            "word": "Minutes",
+                            "wordIndex": 402,
+                            "timestamp": 165.145
+                        }
+                    ]
+                },
+                {
+                    "text": "He managed to take down a buffalo beetle with a full stomach.",
+                    "start_time": "165.654",
+                    "end_time": 169.336,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Buffalo Beetle",
+                            "wordIndex": 410,
+                            "timestamp": 167.235
+                        },
+                        {
+                            "word": "Beetle",
+                            "wordIndex": 410,
+                            "timestamp": 167.705
+                        },
+                        {
+                            "word": "Beetles",
+                            "wordIndex": 410,
+                            "timestamp": 167.705
+                        },
+                        {
+                            "word": "Stomach",
+                            "wordIndex": 414,
+                            "timestamp": 169.044
+                        }
+                    ]
+                },
+                {
+                    "text": "He began to search for a place to burrow.",
+                    "start_time": "169.615",
+                    "end_time": 172.04699999999994,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Search",
+                            "wordIndex": 418,
+                            "timestamp": 170.455
+                        },
+                        {
+                            "word": "Place",
+                            "wordIndex": 421,
+                            "timestamp": 171.104
+                        },
+                        {
+                            "word": "Burrow",
+                            "wordIndex": 423,
+                            "timestamp": 171.604
+                        }
+                    ]
+                },
+                {
+                    "text": "After a few hours, his burrough was complete and it just looked like an ordinary hole.",
+                    "start_time": "175.009",
+                    "end_time": 180.07399999999993,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Hours",
+                            "wordIndex": 427,
+                            "timestamp": 175.919
+                        },
+                        {
+                            "word": "Burrough",
+                            "wordIndex": 429,
+                            "timestamp": 176.8
+                        },
+                        {
+                            "word": "Hole",
+                            "wordIndex": 439,
+                            "timestamp": 179.619
+                        }
+                    ]
+                },
+                {
+                    "text": "But if we look underground, we can see it is so much more.",
+                    "start_time": "180.229",
+                    "end_time": 184.2910000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "text": "It is his home.",
+                    "start_time": "184.419",
+                    "end_time": 185.547,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Home",
+                            "wordIndex": 456,
+                            "timestamp": 185.05
+                        }
+                    ]
+                },
+                {
+                    "text": "He would spend most of his time here.",
+                    "start_time": "189.13",
+                    "end_time": 191.48499999999993,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Time",
+                            "wordIndex": 463,
+                            "timestamp": 190.66
+                        }
+                    ]
+                },
+                {
+                    "text": "But as day turned to night he would emerge under ultraviolet light, he will glow a radioactive green.",
+                    "start_time": "191.57",
+                    "end_time": 198.81700000000012,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Day",
+                            "wordIndex": 467,
+                            "timestamp": 191.96
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 467,
+                            "timestamp": 191.96
+                        },
+                        {
+                            "word": "Night",
+                            "wordIndex": 470,
+                            "timestamp": 192.779
+                        },
+                        {
+                            "word": "Light",
+                            "wordIndex": 476,
+                            "timestamp": 198.369
+                        }
+                    ]
+                },
+                {
+                    "text": "Yes.",
+                    "start_time": "206.35",
+                    "end_time": 206.389,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "text": "On day 60 I realized the scorpion wasn't going to be enough.",
+                    "start_time": "211.429",
+                    "end_time": 215.665,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Day",
+                            "wordIndex": 485,
+                            "timestamp": 211.86
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 485,
+                            "timestamp": 211.86
+                        },
+                        {
+                            "word": "Scorpion",
+                            "wordIndex": 490,
+                            "timestamp": 213.759
+                        },
+                        {
+                            "word": "Scorpion Wasn't",
+                            "wordIndex": 491,
+                            "timestamp": 213.759
+                        }
+                    ]
+                },
+                {
+                    "text": "The beetles were breeding faster than the scorpion could eat them.",
+                    "start_time": "215.779",
+                    "end_time": 219.039,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Beetle",
+                            "wordIndex": 497,
+                            "timestamp": 215.949
+                        },
+                        {
+                            "word": "Beetles",
+                            "wordIndex": 497,
+                            "timestamp": 215.949
+                        },
+                        {
+                            "word": "Scorpion",
+                            "wordIndex": 503,
+                            "timestamp": 217.85
+                        }
+                    ]
+                },
+                {
+                    "text": "I needed to add competition meet the blue death fainting beetle.",
+                    "start_time": "219.199",
+                    "end_time": 223.38,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Competition",
+                            "wordIndex": 511,
+                            "timestamp": 220.229
+                        },
+                        {
+                            "word": "Death Fainting Beetle",
+                            "wordIndex": 517,
+                            "timestamp": 222.389
+                        },
+                        {
+                            "word": "Beetle",
+                            "wordIndex": 517,
+                            "timestamp": 223.02
+                        },
+                        {
+                            "word": "Beetles",
+                            "wordIndex": 517,
+                            "timestamp": 223.02
+                        }
+                    ]
+                },
+                {
+                    "text": "This is no ordinary bug.",
+                    "start_time": "223.49",
+                    "end_time": 225.74000000000004,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Bugs",
+                            "wordIndex": 522,
+                            "timestamp": 225.149
+                        },
+                        {
+                            "word": "Bug",
+                            "wordIndex": 522,
+                            "timestamp": 225.149
+                        }
+                    ]
+                },
+                {
+                    "text": "They have three superpowers.",
+                    "start_time": "225.789",
+                    "end_time": 227.97099999999998,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Superpower",
+                            "wordIndex": 526,
+                            "timestamp": 226.83
+                        },
+                        {
+                            "word": "Superpowers First",
+                            "wordIndex": 527,
+                            "timestamp": 226.83
+                        }
+                    ]
+                },
+                {
+                    "text": "First off, they make their own sunscreen.",
+                    "start_time": "228.009",
+                    "end_time": 230.89900000000003,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "First",
+                            "wordIndex": 527,
+                            "timestamp": 228.009
+                        },
+                        {
+                            "word": "Sunscreen",
+                            "wordIndex": 533,
+                            "timestamp": 230.11
+                        }
+                    ]
+                },
+                {
+                    "text": "This white powder on their shell will protect them from the desert sun.",
+                    "start_time": "230.97",
+                    "end_time": 235.06900000000002,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Powder",
+                            "wordIndex": 536,
+                            "timestamp": 231.679
+                        },
+                        {
+                            "word": "Shell",
+                            "wordIndex": 539,
+                            "timestamp": 232.49
+                        },
+                        {
+                            "word": "Desert",
+                            "wordIndex": 545,
+                            "timestamp": 234.309
+                        },
+                        {
+                            "word": "Desert Sun",
+                            "wordIndex": 546,
+                            "timestamp": 234.309
+                        },
+                        {
+                            "word": "Sun",
+                            "wordIndex": 546,
+                            "timestamp": 234.8
+                        }
+                    ]
+                },
+                {
+                    "text": "Secondly, they have a huge abdomen to store water, kind of like a camel that can last for ages without any water at all.",
+                    "start_time": "235.3",
+                    "end_time": 243.39600000000007,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Abdomen",
+                            "wordIndex": 552,
+                            "timestamp": 237.339
+                        },
+                        {
+                            "word": "Water",
+                            "wordIndex": 555,
+                            "timestamp": 238.44
+                        },
+                        {
+                            "word": "Store Water Kind",
+                            "wordIndex": 556,
+                            "timestamp": 238.029
+                        },
+                        {
+                            "word": "Camel",
+                            "wordIndex": 560,
+                            "timestamp": 239.729
+                        },
+                        {
+                            "word": "Ages",
+                            "wordIndex": 565,
+                            "timestamp": 241.399
+                        },
+                        {
+                            "word": "Water",
+                            "wordIndex": 568,
+                            "timestamp": 242.6
+                        }
+                    ]
+                },
+                {
+                    "text": "But if a predator tries to eat them, that's where its third superpower comes into play.",
+                    "start_time": "243.639",
+                    "end_time": 248.6610000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Predators",
+                            "wordIndex": 574,
+                            "timestamp": 244.21
+                        },
+                        {
+                            "word": "Predator",
+                            "wordIndex": 574,
+                            "timestamp": 244.21
+                        },
+                        {
+                            "word": "Superpower",
+                            "wordIndex": 583,
+                            "timestamp": 247.059
+                        }
+                    ]
+                },
+                {
+                    "text": "They are indestructible.",
+                    "start_time": "248.919",
+                    "end_time": 251.12900000000002,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "text": "Their thick armor will protect them from sandstorms and strong desert winds.",
+                    "start_time": "251.289",
+                    "end_time": 255.98499999999999,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Armor",
+                            "wordIndex": 592,
+                            "timestamp": 251.96
+                        },
+                        {
+                            "word": "Sandstorms",
+                            "wordIndex": 597,
+                            "timestamp": 253.44
+                        },
+                        {
+                            "word": "Desert",
+                            "wordIndex": 600,
+                            "timestamp": 255.3
+                        },
+                        {
+                            "word": "Desert Winds",
+                            "wordIndex": 601,
+                            "timestamp": 255.3
+                        }
+                    ]
+                },
+                {
+                    "text": "I added them into the tank and immediately one was making a fatal mistake.",
+                    "start_time": "260.73",
+                    "end_time": 266.196,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Tank",
+                            "wordIndex": 607,
+                            "timestamp": 261.88
+                        },
+                        {
+                            "word": "Mistake",
+                            "wordIndex": 615,
+                            "timestamp": 265.54
+                        }
+                    ]
+                },
+                {
+                    "text": "He wandered towards the scorpion burrow and then down inside, he was walking towards his doom.",
+                    "start_time": "266.339",
+                    "end_time": 273.166,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Scorpion",
+                            "wordIndex": 620,
+                            "timestamp": 267.739
+                        },
+                        {
+                            "word": "Scorpion Burrow",
+                            "wordIndex": 621,
+                            "timestamp": 267.739
+                        },
+                        {
+                            "word": "Burrow",
+                            "wordIndex": 621,
+                            "timestamp": 268.29
+                        }
+                    ]
+                },
+                {
+                    "text": "There was a stalemate.",
+                    "start_time": "277.269",
+                    "end_time": 278.999,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Stalemate",
+                            "wordIndex": 635,
+                            "timestamp": 278.19
+                        }
+                    ]
+                },
+                {
+                    "text": "The Beatle made his move.",
+                    "start_time": "279.04",
+                    "end_time": 280.63499999999993,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Beatle",
+                            "wordIndex": 637,
+                            "timestamp": 279.22
+                        },
+                        {
+                            "word": "Move",
+                            "wordIndex": 640,
+                            "timestamp": 280.19
+                        }
+                    ]
+                },
+                {
+                    "text": "He tapped the scorpion and then retreated deeper into his burrow.",
+                    "start_time": "283.7",
+                    "end_time": 287.371,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Scorpion",
+                            "wordIndex": 644,
+                            "timestamp": 284.5
+                        },
+                        {
+                            "word": "Burrow",
+                            "wordIndex": 651,
+                            "timestamp": 286.95
+                        }
+                    ]
+                },
+                {
+                    "text": "The scorpion gave the beetle a gentle push and then made his journey back to the surface.",
+                    "start_time": "289.67",
+                    "end_time": 295.203,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Scorpion",
+                            "wordIndex": 653,
+                            "timestamp": 289.91
+                        },
+                        {
+                            "word": "Beetle",
+                            "wordIndex": 656,
+                            "timestamp": 291.16
+                        },
+                        {
+                            "word": "Beetles",
+                            "wordIndex": 656,
+                            "timestamp": 291.16
+                        },
+                        {
+                            "word": "Journey",
+                            "wordIndex": 664,
+                            "timestamp": 294.859
+                        }
+                    ]
+                },
+                {
+                    "text": "That was a close call.",
+                    "start_time": "296.95",
+                    "end_time": 298.6970000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "text": "I decided to let them be overnight as the sun began to rise, something extremely rare was about to happen.",
+                    "start_time": "301.339",
+                    "end_time": 308.9090000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Sun",
+                            "wordIndex": 683,
+                            "timestamp": 306.42
+                        },
+                        {
+                            "word": "Rise Something",
+                            "wordIndex": 687,
+                            "timestamp": 307.279
+                        },
+                        {
+                            "word": "Something",
+                            "wordIndex": 687,
+                            "timestamp": 307.929
+                        }
+                    ]
+                },
+                {
+                    "text": "It was rainy season and one of the few storms of the entire year was about to commence.",
+                    "start_time": "311.079",
+                    "end_time": 316.793,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Season",
+                            "wordIndex": 697,
+                            "timestamp": 311.94
+                        },
+                        {
+                            "word": "Storms",
+                            "wordIndex": 703,
+                            "timestamp": 313.54
+                        },
+                        {
+                            "word": "Storm",
+                            "wordIndex": 703,
+                            "timestamp": 313.54
+                        },
+                        {
+                            "word": "Year",
+                            "wordIndex": 707,
+                            "timestamp": 314.97
+                        }
+                    ]
+                },
+                {
+                    "text": "So the tank began to flood as the storm faded away.",
+                    "start_time": "328.049",
+                    "end_time": 332.14199999999994,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Tank",
+                            "wordIndex": 714,
+                            "timestamp": 330.279
+                        },
+                        {
+                            "word": "Flood",
+                            "wordIndex": 717,
+                            "timestamp": 331.399
+                        }
+                    ]
+                },
+                {
+                    "text": "Animals began to emerge.",
+                    "start_time": "339.299",
+                    "end_time": 341.07200000000006,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Animals",
+                            "wordIndex": 723,
+                            "timestamp": 339.299
+                        },
+                        {
+                            "word": "Animal",
+                            "wordIndex": 723,
+                            "timestamp": 339.299
+                        }
+                    ]
+                },
+                {
+                    "text": "The rain brought new life to the desert landscape.",
+                    "start_time": "341.149",
+                    "end_time": 344.1409999999999,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Rain",
+                            "wordIndex": 728,
+                            "timestamp": 341.35
+                        },
+                        {
+                            "word": "Life",
+                            "wordIndex": 731,
+                            "timestamp": 342.429
+                        },
+                        {
+                            "word": "Desert",
+                            "wordIndex": 734,
+                            "timestamp": 343.04
+                        },
+                        {
+                            "word": "Desert Landscape",
+                            "wordIndex": 735,
+                            "timestamp": 343.04
+                        }
+                    ]
+                },
+                {
+                    "text": "This rose of Jericho opened its leaves.",
+                    "start_time": "344.269",
+                    "end_time": 347.142,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Jericho",
+                            "wordIndex": 739,
+                            "timestamp": 345.299
+                        }
+                    ]
+                },
+                {
+                    "text": "After receiving water.",
+                    "start_time": "347.209",
+                    "end_time": 348.55899999999997,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Water",
+                            "wordIndex": 745,
+                            "timestamp": 348.019
+                        }
+                    ]
+                },
+                {
+                    "text": "By day 63, the water area was teeming with life.",
+                    "start_time": "351.72",
+                    "end_time": 355.84100000000007,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Day",
+                            "wordIndex": 747,
+                            "timestamp": 352.14
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 747,
+                            "timestamp": 352.14
+                        },
+                        {
+                            "word": "Water",
+                            "wordIndex": 750,
+                            "timestamp": 353.63
+                        },
+                        {
+                            "word": "Water Area",
+                            "wordIndex": 751,
+                            "timestamp": 353.63
+                        },
+                        {
+                            "word": "Areas",
+                            "wordIndex": 751,
+                            "timestamp": 353.989
+                        },
+                        {
+                            "word": "Life",
+                            "wordIndex": 755,
+                            "timestamp": 355.339
+                        },
+                        {
+                            "word": "Life Hundreds",
+                            "wordIndex": 756,
+                            "timestamp": 355.339
+                        }
+                    ]
+                },
+                {
+                    "text": "Hundreds of tiny eggs that lay dormant in the sand began to hatch.",
+                    "start_time": "355.94",
+                    "end_time": 360.70700000000005,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Hundreds",
+                            "wordIndex": 756,
+                            "timestamp": 355.94
+                        },
+                        {
+                            "word": "Eggs",
+                            "wordIndex": 759,
+                            "timestamp": 357.22
+                        },
+                        {
+                            "word": "Sand",
+                            "wordIndex": 765,
+                            "timestamp": 358.63
+                        },
+                        {
+                            "word": "Hatch",
+                            "wordIndex": 768,
+                            "timestamp": 360.119
+                        }
+                    ]
+                },
+                {
+                    "text": "The pond was swarming with these tiny white dots that were going to become something incredible.",
+                    "start_time": "361.29",
+                    "end_time": 367.059,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Pond",
+                            "wordIndex": 770,
+                            "timestamp": 361.47
+                        },
+                        {
+                            "word": "Dots",
+                            "wordIndex": 777,
+                            "timestamp": 363.799
+                        },
+                        {
+                            "word": "Something",
+                            "wordIndex": 783,
+                            "timestamp": 365.739
+                        }
+                    ]
+                },
+                {
+                    "text": "Meanwhile, on land, I figured it was time to introduce a new animal.",
+                    "start_time": "368.67",
+                    "end_time": 373.215,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Land",
+                            "wordIndex": 787,
+                            "timestamp": 370.1
+                        },
+                        {
+                            "word": "Time",
+                            "wordIndex": 792,
+                            "timestamp": 371.48
+                        },
+                        {
+                            "word": "Animals",
+                            "wordIndex": 797,
+                            "timestamp": 372.75
+                        },
+                        {
+                            "word": "Animal",
+                            "wordIndex": 797,
+                            "timestamp": 372.75
+                        }
+                    ]
+                },
+                {
+                    "text": "Here is a Mexican jumping bean and here are 30 more.",
+                    "start_time": "373.35",
+                    "end_time": 377.5630000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Mexican",
+                            "wordIndex": 801,
+                            "timestamp": 374.19
+                        },
+                        {
+                            "word": "Bean",
+                            "wordIndex": 803,
+                            "timestamp": 375.16
+                        }
+                    ]
+                },
+                {
+                    "text": "These are not what they seem after I added them in.",
+                    "start_time": "377.67",
+                    "end_time": 381.239,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "text": "They began to dance.",
+                    "start_time": "381.35",
+                    "end_time": 383.0720000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Dance",
+                            "wordIndex": 823,
+                            "timestamp": 382.339
+                        }
+                    ]
+                },
+                {
+                    "text": "They seem to roll around mindlessly but each one is on a mission, find shelter.",
+                    "start_time": "383.63",
+                    "end_time": 389.817,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Roll",
+                            "wordIndex": 827,
+                            "timestamp": 384.32
+                        },
+                        {
+                            "word": "Mindlessly",
+                            "wordIndex": 829,
+                            "timestamp": 385.07
+                        },
+                        {
+                            "word": "Mission",
+                            "wordIndex": 836,
+                            "timestamp": 387.619
+                        },
+                        {
+                            "word": "Shelter",
+                            "wordIndex": 838,
+                            "timestamp": 389.26
+                        }
+                    ]
+                },
+                {
+                    "text": "They jump to escape the desert heat.",
+                    "start_time": "390.059",
+                    "end_time": 392.07099999999997,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Jump",
+                            "wordIndex": 840,
+                            "timestamp": 390.29
+                        },
+                        {
+                            "word": "Desert",
+                            "wordIndex": 844,
+                            "timestamp": 391.269
+                        },
+                        {
+                            "word": "Desert Heat",
+                            "wordIndex": 845,
+                            "timestamp": 391.269
+                        }
+                    ]
+                },
+                {
+                    "text": "It didn't take long for them to huddle under whatever they could find.",
+                    "start_time": "392.16",
+                    "end_time": 395.7200000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Huddle",
+                            "wordIndex": 853,
+                            "timestamp": 393.76
+                        }
+                    ]
+                },
+                {
+                    "text": "Now, inside every bean lives a caterpillar one day, they will emerge into a beautiful little moth By day.",
+                    "start_time": "395.85",
+                    "end_time": 403.8139999999996,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Bean",
+                            "wordIndex": 862,
+                            "timestamp": 397.709
+                        },
+                        {
+                            "word": "Bean Lives",
+                            "wordIndex": 863,
+                            "timestamp": 397.709
+                        },
+                        {
+                            "word": "Caterpillar",
+                            "wordIndex": 865,
+                            "timestamp": 398.619
+                        },
+                        {
+                            "word": "Day",
+                            "wordIndex": 867,
+                            "timestamp": 399.839
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 867,
+                            "timestamp": 399.839
+                        },
+                        {
+                            "word": "Moth",
+                            "wordIndex": 875,
+                            "timestamp": 402.619
+                        }
+                    ]
+                },
+                {
+                    "text": "72 life in the water had grown substantially.",
+                    "start_time": "405.709",
+                    "end_time": 409.42300000000006,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Life",
+                            "wordIndex": 879,
+                            "timestamp": 406.69
+                        },
+                        {
+                            "word": "Water",
+                            "wordIndex": 882,
+                            "timestamp": 407.359
+                        }
+                    ]
+                },
+                {
+                    "text": "These little white crustaceans are called Fairy Shrimp.",
+                    "start_time": "409.5",
+                    "end_time": 412.7400000000002,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Crustaceans",
+                            "wordIndex": 889,
+                            "timestamp": 410.39
+                        },
+                        {
+                            "word": "Fairy Shrimp",
+                            "wordIndex": 893,
+                            "timestamp": 411.88
+                        },
+                        {
+                            "word": "Shrimp",
+                            "wordIndex": 893,
+                            "timestamp": 412.299
+                        }
+                    ]
+                },
+                {
+                    "text": "They glide through the water, filtering out whatever food they could find in the Shadows lived an animal much larger and less delicate than the fairy shrimp.",
+                    "start_time": "412.82",
+                    "end_time": 421.6470000000002,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Water",
+                            "wordIndex": 898,
+                            "timestamp": 413.89
+                        },
+                        {
+                            "word": "Food",
+                            "wordIndex": 902,
+                            "timestamp": 415.64
+                        },
+                        {
+                            "word": "Shadows",
+                            "wordIndex": 908,
+                            "timestamp": 417.76
+                        },
+                        {
+                            "word": "Animals",
+                            "wordIndex": 911,
+                            "timestamp": 418.859
+                        },
+                        {
+                            "word": "Animal",
+                            "wordIndex": 911,
+                            "timestamp": 418.859
+                        },
+                        {
+                            "word": "Fairy Shrimp",
+                            "wordIndex": 920,
+                            "timestamp": 421.64
+                        }
+                    ]
+                },
+                {
+                    "text": "Meet the tryout.",
+                    "start_time": "422.42",
+                    "end_time": 423.90899999999993,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Tryout",
+                            "wordIndex": 923,
+                            "timestamp": 423.44
+                        }
+                    ]
+                },
+                {
+                    "text": "I put one on my fingers so you can get a sense of scale.",
+                    "start_time": "427.429",
+                    "end_time": 430.269,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Fingers",
+                            "wordIndex": 929,
+                            "timestamp": 428.29
+                        },
+                        {
+                            "word": "Sense",
+                            "wordIndex": 935,
+                            "timestamp": 429.269
+                        },
+                        {
+                            "word": "Scale",
+                            "wordIndex": 937,
+                            "timestamp": 429.679
+                        }
+                    ]
+                },
+                {
+                    "text": "They look completely prehistoric.",
+                    "start_time": "430.41",
+                    "end_time": 432.60999999999996,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "text": "They look to be thriving now, but there is a problem every day.",
+                    "start_time": "436.369",
+                    "end_time": 441.23900000000003,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Problem",
+                            "wordIndex": 952,
+                            "timestamp": 439.39
+                        },
+                        {
+                            "word": "Day",
+                            "wordIndex": 954,
+                            "timestamp": 440.799
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 954,
+                            "timestamp": 440.799
+                        }
+                    ]
+                },
+                {
+                    "text": "The water level got lower and lower.",
+                    "start_time": "441.369",
+                    "end_time": 444.04100000000005,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Water",
+                            "wordIndex": 956,
+                            "timestamp": 441.559
+                        },
+                        {
+                            "word": "Water Level",
+                            "wordIndex": 957,
+                            "timestamp": 441.559
+                        }
+                    ]
+                },
+                {
+                    "text": "The desert sun was quickly drying up their little pond On day 81, the pond was almost dried up but life was more active than ever.",
+                    "start_time": "444.109",
+                    "end_time": 453.3509999999999,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Desert",
+                            "wordIndex": 963,
+                            "timestamp": 444.279
+                        },
+                        {
+                            "word": "Desert Sun",
+                            "wordIndex": 964,
+                            "timestamp": 444.279
+                        },
+                        {
+                            "word": "Sun",
+                            "wordIndex": 964,
+                            "timestamp": 444.809
+                        },
+                        {
+                            "word": "Pond",
+                            "wordIndex": 971,
+                            "timestamp": 447.23
+                        },
+                        {
+                            "word": "Day",
+                            "wordIndex": 973,
+                            "timestamp": 452.72
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 973,
+                            "timestamp": 452.72
+                        }
+                    ]
+                },
+                {
+                    "text": "Many of the tri ups were carrying bundles of eggs and needed to find a safe place to lay them.",
+                    "start_time": "459.73",
+                    "end_time": 464.7600000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Many",
+                            "wordIndex": 988,
+                            "timestamp": 459.73
+                        },
+                        {
+                            "word": "Tri Ups",
+                            "wordIndex": 992,
+                            "timestamp": 460.48
+                        },
+                        {
+                            "word": "Bundles",
+                            "wordIndex": 995,
+                            "timestamp": 461.6
+                        },
+                        {
+                            "word": "Eggs",
+                            "wordIndex": 997,
+                            "timestamp": 462.209
+                        },
+                        {
+                            "word": "Place",
+                            "wordIndex": 1004,
+                            "timestamp": 464.07
+                        }
+                    ]
+                },
+                {
+                    "text": "Here.",
+                    "start_time": "466.019",
+                    "end_time": 466.73,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "text": "You can see a female carefully digging her nest.",
+                    "start_time": "466.739",
+                    "end_time": 469.409,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Nest",
+                            "wordIndex": 1017,
+                            "timestamp": 468.92
+                        }
+                    ]
+                },
+                {
+                    "text": "She will lay her eggs in this hole and they won't hatch until the following rainy season.",
+                    "start_time": "471.559",
+                    "end_time": 476.2330000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Eggs",
+                            "wordIndex": 1022,
+                            "timestamp": 472.529
+                        },
+                        {
+                            "word": "Hole",
+                            "wordIndex": 1025,
+                            "timestamp": 473.089
+                        },
+                        {
+                            "word": "Won't Hatch",
+                            "wordIndex": 1029,
+                            "timestamp": 473.95
+                        },
+                        {
+                            "word": "Hatch",
+                            "wordIndex": 1029,
+                            "timestamp": 474.279
+                        },
+                        {
+                            "word": "Season",
+                            "wordIndex": 1034,
+                            "timestamp": 475.85
+                        }
+                    ]
+                },
+                {
+                    "text": "The fairy shrimp had also laid their eggs and their life cycle was reaching the end.",
+                    "start_time": "476.549",
+                    "end_time": 480.91999999999996,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Fairy Shrimp",
+                            "wordIndex": 1037,
+                            "timestamp": 476.779
+                        },
+                        {
+                            "word": "Shrimp",
+                            "wordIndex": 1037,
+                            "timestamp": 477.119
+                        },
+                        {
+                            "word": "Eggs",
+                            "wordIndex": 1042,
+                            "timestamp": 478.48
+                        },
+                        {
+                            "word": "Life",
+                            "wordIndex": 1045,
+                            "timestamp": 479.17
+                        },
+                        {
+                            "word": "Life Cycle",
+                            "wordIndex": 1046,
+                            "timestamp": 479.17
+                        },
+                        {
+                            "word": "End",
+                            "wordIndex": 1050,
+                            "timestamp": 480.54
+                        }
+                    ]
+                },
+                {
+                    "text": "Only a few days later, the pond had dried up completely.",
+                    "start_time": "482.799",
+                    "end_time": 486.83400000000006,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Day",
+                            "wordIndex": 1054,
+                            "timestamp": 483.679
+                        },
+                        {
+                            "word": "Days",
+                            "wordIndex": 1054,
+                            "timestamp": 483.679
+                        },
+                        {
+                            "word": "Pond",
+                            "wordIndex": 1057,
+                            "timestamp": 484.769
+                        }
+                    ]
+                },
+                {
+                    "text": "The rows of Jericho had closed and life seemed bare.",
+                    "start_time": "486.94",
+                    "end_time": 490.756,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Rows",
+                            "wordIndex": 1063,
+                            "timestamp": 487.14
+                        },
+                        {
+                            "word": "Jericho",
+                            "wordIndex": 1065,
+                            "timestamp": 487.75
+                        },
+                        {
+                            "word": "Life",
+                            "wordIndex": 1069,
+                            "timestamp": 489.44
+                        }
+                    ]
+                },
+                {
+                    "text": "But after closer inspection, you will notice hundreds of tiny eggs waiting for the next time it rain life was booming, but it was time to introduce a new predator.",
+                    "start_time": "490.869",
+                    "end_time": 502.312,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Inspection",
+                            "wordIndex": 1075,
+                            "timestamp": 492.179
+                        },
+                        {
+                            "word": "Hundreds",
+                            "wordIndex": 1079,
+                            "timestamp": 493.839
+                        },
+                        {
+                            "word": "Eggs",
+                            "wordIndex": 1082,
+                            "timestamp": 495
+                        },
+                        {
+                            "word": "Time",
+                            "wordIndex": 1087,
+                            "timestamp": 496.64
+                        },
+                        {
+                            "word": "Rain",
+                            "wordIndex": 1089,
+                            "timestamp": 496.929
+                        },
+                        {
+                            "word": "Rain Life",
+                            "wordIndex": 1090,
+                            "timestamp": 496.929
+                        },
+                        {
+                            "word": "Life",
+                            "wordIndex": 1090,
+                            "timestamp": 498.16
+                        },
+                        {
+                            "word": "Time",
+                            "wordIndex": 1096,
+                            "timestamp": 500.829
+                        }
+                    ]
+                },
+                {
+                    "text": "This animal will easily find her way to the top of the food chain.",
+                    "start_time": "503.45",
+                    "end_time": 507.6049999999999,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Animals",
+                            "wordIndex": 1103,
+                            "timestamp": 503.839
+                        },
+                        {
+                            "word": "Animal",
+                            "wordIndex": 1103,
+                            "timestamp": 503.839
+                        },
+                        {
+                            "word": "Way",
+                            "wordIndex": 1108,
+                            "timestamp": 505.69
+                        },
+                        {
+                            "word": "Food",
+                            "wordIndex": 1114,
+                            "timestamp": 506.829
+                        },
+                        {
+                            "word": "Food Chain",
+                            "wordIndex": 1115,
+                            "timestamp": 506.829
+                        }
+                    ]
+                },
+                {
+                    "text": "Let me introduce you to the bearded dragon.",
+                    "start_time": "507.98",
+                    "end_time": 511.57800000000003,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Dragon I'm",
+                            "wordIndex": 1124,
+                            "timestamp": 511.019
+                        }
+                    ]
+                },
+                {
+                    "text": "I'm just kidding.",
+                    "start_time": "512.95",
+                    "end_time": 513.8100000000001,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": []
+                },
+                {
+                    "text": "She's way too big for this tank, but I have many more projects on the way.",
+                    "start_time": "513.849",
+                    "end_time": 518.651,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "She's Way",
+                            "wordIndex": 1128,
+                            "timestamp": 513.849
+                        },
+                        {
+                            "word": "Way",
+                            "wordIndex": 1128,
+                            "timestamp": 514.26
+                        },
+                        {
+                            "word": "Tank",
+                            "wordIndex": 1133,
+                            "timestamp": 515.52
+                        },
+                        {
+                            "word": "Many",
+                            "wordIndex": 1137,
+                            "timestamp": 516.919
+                        },
+                        {
+                            "word": "Projects",
+                            "wordIndex": 1139,
+                            "timestamp": 517.52
+                        },
+                        {
+                            "word": "Way",
+                            "wordIndex": 1142,
+                            "timestamp": 518.28
+                        }
+                    ]
+                },
+                {
+                    "text": "So do me a favor and like this video, subscribe and I'll be sure to see you in the next one.",
+                    "start_time": "518.809",
+                    "end_time": 524.4689999999998,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Favor",
+                            "wordIndex": 1147,
+                            "timestamp": 519.46
+                        },
+                        {
+                            "word": "Video",
+                            "wordIndex": 1151,
+                            "timestamp": 520.539
+                        },
+                        {
+                            "word": "I'll",
+                            "wordIndex": 1154,
+                            "timestamp": 522.34
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

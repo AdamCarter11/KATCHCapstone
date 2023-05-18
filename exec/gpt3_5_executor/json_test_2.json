@@ -1,0 +1,102 @@
+{
+  "videos": [
+    {
+      "title": "Tammy and the seal, a documentary'",
+      "duration": "1200",
+      "youtube_id": "abcd1234",
+      "channel_title": "Little Adventures documentary",
+      "thumbnail_url": "https://img.youtube.com/vi/abcd1234/mqdefault.jpg",
+      "transcript_portions": [
+        {
+          "start_time": "0",
+          "end_time": "60",
+          "text": "tammy is a very smart and beautiful young woman who comes from Ho chi Minh, she is shy but somehow a bit too outgoing sometimes.",
+          "tags": [
+            {
+              "word": "tammy",
+              "timestamp": "10"
+            },
+            {
+              "word": "vietnam",
+              "timestamp": "30"
+            },
+            {
+              "word": "Smart",
+              "timestamp": "40"
+            }
+          ],
+          "speaker": "spk_0"
+        },
+        {
+          "start_time": "60",
+          "end_time": "120",
+          "text": " tammy has a child named fufu, he is a furry white seal, fufu likes to spend time with his dad a bit better.",
+          "tags": [
+            {
+              "word": "fufu",
+              "timestamp": "65"
+            },
+            {
+              "word": "seal",
+              "timestamp": "75"
+            },
+            {
+              "word": "stuffed animal",
+              "timestamp": "90"
+            }
+          ],
+          "speaker": "spk_0"
+        }
+      ]
+    },
+    {
+      "title": "Exploring 'Chronicles of the Last Continent'",
+      "duration": "1500",
+      "youtube_id": "efgh5678",
+      "channel_title": "Sci-Fi Book Club",
+      "thumbnail_url": "https://img.youtube.com/vi/efgh5678/mqdefault.jpg",
+      "transcript_portions": [
+        {
+          "start_time": "0",
+          "end_time": "60",
+          "text": "'Chronicles of the Last Continent' takes us to a future Earth, where climate change has forced humanity to adapt in extraordinary ways.",
+          "tags": [
+            {
+              "word": "Chronicles of the Last Continent",
+              "timestamp": "5"
+            },
+            {
+              "word": "future Earth",
+              "timestamp": "20"
+            },
+            {
+              "word": "climate change",
+              "timestamp": "35"
+            }
+          ],
+          "speaker": "spk_0"
+        },
+        {
+          "start_time": "60",
+          "end_time": "120",
+          "text": "We follow the journey of Luna, an explorer navigating this new world, facing challenges and uncovering secrets of the past.",
+          "tags": [
+            {
+              "word": "Luna",
+              "timestamp": "65"
+            },
+            {
+              "word": "explorer",
+              "timestamp": "70"
+            },
+            {
+              "word": "new world",
+              "timestamp": "80"
+            }
+          ],
+          "speaker": "spk_0"
+        }
+      ]
+    }
+  ]
+}

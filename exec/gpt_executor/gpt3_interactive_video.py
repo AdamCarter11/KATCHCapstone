@@ -12,7 +12,7 @@ from transformers import logging as hf_logging
 hf_logging.set_verbosity_error()
 
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Load BERT tokenizer and model for embeddings
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')

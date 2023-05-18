@@ -1,20 +1,17 @@
 import json
-import os
-import sys
-import numpy as np
 import openai
+import numpy as np
 from transformers import BertTokenizer, BertModel
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 from nltk.corpus import stopwords
-import logging
 from transformers import logging as hf_logging
-import openai
+
 hf_logging.set_verbosity_error()
 
 # Set up OpenAI API key
-openai.api_key =
+openai.api_key = "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"
 
 # Load BERT tokenizer and model for embeddings
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -26,7 +23,6 @@ def get_embedding(text):
     embeddings = outputs.last_hidden_state[:, :, :].detach().numpy()
     sentence_embedding = np.mean(embeddings, axis=1)
     return sentence_embedding[0]
-
 
 def get_keywords(text):
     vectorizer = TfidfVectorizer(stop_words='english', max_features=10)
@@ -41,7 +37,6 @@ def get_keywords(text):
     X = vectorizer.fit_transform([' '.join(filtered_words)])
     feature_names = vectorizer.get_feature_names_out()
     return set(feature_names)
-
 
 def find_video_tags_and_transcript(prompt, video_metadata):
     words = get_keywords(prompt)
@@ -63,8 +58,6 @@ def find_video_tags_and_transcript(prompt, video_metadata):
                     best_match = (video["title"], "", segment["text"], "", segment["start_time"], segment["end_time"], similarity)
 
     return best_match[0], best_match[1], best_match[2], best_match[3], best_match[4], best_match[5]
-
-
 
 def interact_with_gpt3_5(prompt, video_metadata):
     model_engine = "text-davinci-003"
@@ -96,9 +89,8 @@ def interact_with_gpt3_5(prompt, video_metadata):
 
     return response.choices[0].text.strip()
 
-
 # Define the full path to your JSON file
-file_path = 'C:\\Users\\jpiye\\OneDrive\\Documents\\GitHub\\KATCHCapstone\\exec\\gpt3_5_executor\\response.json'
+file_path = 'C:\\Users\\jpiye\\OneDrive\\Documents\\GitHub\\KATCHCapstone\\exec\\gpt3_5_executor\\formatted_response.json'
 
 # Now you can open the file with this path
 with open(file_path) as f:
