@@ -8,11 +8,16 @@ import nltk
 from nltk.corpus import stopwords
 
 from transformers import logging as hf_logging
+from fuzzywuzzy import fuzz, process
 
 hf_logging.set_verbosity_error()
 
 # Set up OpenAI API key
+<<<<<<< HEAD
 openai.api_key = "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"
+=======
+openai.api_key = "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"
+>>>>>>> 72adb954552f1561d69eba2bcc454007c90152c4
 
 # Load BERT tokenizer and model for embeddings
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -39,6 +44,7 @@ def get_keywords(text):
 
 import openai
 
+"""
 def find_video_tags_and_transcript(prompt, video_metadata):
     words = prompt.lower().split()
     for video_key, video_info in video_metadata.items():
@@ -50,6 +56,27 @@ def find_video_tags_and_transcript(prompt, video_metadata):
                     if segment["timestamp"] in timestamps:
                         return ', '.join(video_info["video_tags"]), segment["transcript"]
     return "", ""
+"""
+def find_video_tags_and_transcript(prompt, video_metadata):
+    words = prompt.lower().split()
+    best_match_ratio = 0
+    best_match_tag = ""
+    best_match_transcript = ""
+
+    for video_key, video_info in video_metadata.items():
+        # Check video tags
+        for tag in video_info["video_tags"]:
+            similarity_ratio = process.extractOne(tag.lower(), words, scorer=fuzz.ratio)[1]
+            if similarity_ratio > best_match_ratio:
+                best_match_ratio = similarity_ratio
+                best_match_tag = tag
+                timestamps = video_info["tag_timestamps"].get(tag, [])
+                for segment in video_info["transcript_segments"]:
+                    if segment["timestamp"] in timestamps:
+                        best_match_transcript = segment["transcript"]
+
+    return best_match_tag, best_match_transcript
+
 
 def interact_with_gpt3_5(prompt, video_metadata):
     model_engine = "text-davinci-003"
@@ -77,6 +104,7 @@ def interact_with_gpt3_5(prompt, video_metadata):
     )
 
     return response.choices[0].text.strip()
+
 
 # Define the full path to your JSON file
 file_path = 'C:\\Users\\jpiye\\OneDrive\\Documents\\GitHub\\KATCHCapstone\\exec\\gpt_executor\\video_metadata.json'
