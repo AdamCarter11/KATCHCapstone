@@ -1,0 +1,62 @@
+{
+    "videos": [
+        {
+            "title": "Exploring the Enchanted Forest",
+            "publish_date": "2023-05-18",
+            "duration": "2400",
+            "youtube_id": "fgh78fgh78",
+            "channel_title": "FantasyWorld",
+            "thumbnail_url": "https://img.youtube.com/vi/fgh78fgh78/mqdefault.jpg",
+            "transcript_portions": [
+                {
+                    "text": "In the heart of the Enchanted Forest, there are wonders beyond comprehension, there lives a small dwarf with a red hat and he loves to cook and play basketball.",
+                    "start_time": "0.00",
+                    "end_time": 5.00,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Enchanted Forest",
+                            "wordIndex": 3,
+                            "timestamp": 2.00
+                        },
+                        {
+                            "word": "Wonders",
+                            "wordIndex": 8,
+                            "timestamp": 4.50
+                        }
+                    ]
+                },
+                {
+                    "text": "Magical creatures roam freely, and ancient trees whisper stories of old. However one day one of the other dwarves came and found out that their chocolate had been stolen by the basketball playing dwarf",
+                    "start_time": "6.00",
+                    "end_time": 11.00,
+                    "speakers": [
+                        {
+                            "label": "spk_0",
+                            "no": 1,
+                            "id": "1"
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "word": "Magical creatures",
+                            "wordIndex": 10,
+                            "timestamp": 7.00
+                        },
+                        {
+                            "word": "Ancient trees",
+                            "wordIndex": 13,
+                            "timestamp": 9.50
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
