@@ -140,12 +140,13 @@ file.write(json.dumps(combined_results, indent=4))
 # Close the file
 file.close()
 
-"""
+'''
 The above uses a file on your system if it is in the same filepath.
 
 This method can handle responses directly from the DCO API as well.
 
 To do this, you can use the following code:
+
 
 import DcoApi
 import SentenceConverter
@@ -154,7 +155,7 @@ dcoapi = DcoApi()
 converter = SentenceConverter()
 
 #  This gets a list of all your TagStreams
-resp = dcoapi.send('GET', '/api/users/tag_streams')
+resp = dcoapi.send('GET', '/api/jpiyer@ucsc.edu/tag_streams')
 
 #  Then we loop and get the individual TagStreams
 TagStreams = []
@@ -167,4 +168,4 @@ combined_results = converter.run(TagStreams)
 
 # Print the resulting sentences
 print(json.dumps(combined_results, indent=4))
-"""
+'''
