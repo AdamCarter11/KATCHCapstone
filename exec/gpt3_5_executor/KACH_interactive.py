@@ -94,7 +94,7 @@ def interact_with_gpt3_5(prompt, video_metadata):
     return response.choices[0].text.strip()
 
 
-file_path = 'C:\\Users\\jpiye\\OneDrive\\Documents\\GitHub\\KATCHCapstone\\exec\\gpt3_5_executor\\formatted_response.json'
+file_path = '/Users/emmanuelezenwajr./Documents/GitHub/KATCHCapstone/exec/gpt3_5_executor/response.json'
 
 with open(file_path) as f:
     video_metadata = json.load(f)
